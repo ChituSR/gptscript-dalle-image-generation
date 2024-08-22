@@ -4,7 +4,7 @@ import argparse
 import openai
 from openai import AzureOpenAI
 
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 # Set up defaults and get API key from environment variable
 defaults = {
     "api_key": os.getenv('OPENAI_API_KEY'),
@@ -13,7 +13,7 @@ defaults = {
     "quality": "standard",
     "number": "1",
 }
-load_dotenv(".env")
+#load_dotenv(".env")
 # create OpenAI client
 base_url=os.environ.get("AOAI_ENDPOINT")
 api_version= "2024-02-15-preview"
