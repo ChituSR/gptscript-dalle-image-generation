@@ -9,7 +9,7 @@ from openai import AzureOpenAI
 import os
 import httpx
 from openai import AzureOpenAI
-from PIL import Image
+#from PIL import Image
 
 API_VERSION="2024-04-01-preview"
 client = AzureOpenAI(
